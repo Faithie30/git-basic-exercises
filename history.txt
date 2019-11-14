@@ -1,0 +1,99 @@
+    1  ping www.google.com
+    2  ls
+    3  pwd
+    4  mkdir ~/ workspace
+    5  mkdir Workspace
+    6  ls
+    7  touch ~/workspace README.md
+    8  ls 
+    9  touch workspace README.md
+   10  ls
+   11  ~Workspace
+   12  ~workspace$
+   13  mkdir Workspace
+   14  cd workspace
+   15  git --version
+   16  sudo apt install git
+   17  locate *.pdf
+   18  git --version
+   19  sudo apt-get install git
+   20  clear
+   21  ps -aux
+   22  ps aux | grep -i apt
+   23  sudo kill -9 863
+   24  sudo kill -9 873
+   25  ps aux | grep -i apt
+   26  sudo kill -9 3210
+   27  ps aux | grep -i apt
+   28  sudo kill -9 3214
+   29  ps aux | grep -i apt
+   30  sudo apt-get install git
+   31  clear
+   32  lsof /var/lib/dpkg/lock
+   33  lsof /var/lib/apt/lists/lock
+   34  lsof /var/cache/apt/archives/lock
+   35  sudo rm /var/lib/apt/lists/lock
+   36  sudo rm /var/cache/apt/archives/lock
+   37  sudo rm /var/lib/dpkg/lock
+   38  sudo dpkg --configure -a
+   39  sudo apt-get install git
+   40  lsof /var/lib/dpkg/lock-frontend
+   41  sudo rm /var/lib/dpkg/lock-frontend
+   42  sudo dpkg --configure -a
+   43  sudo apt-get install git
+   44  git --version
+   45  sudo apt update
+   46  sudo apt upgrade
+   47  sudo apt -get autoremove
+   48  sudo apt-get autoremove
+   49  git --version
+   50  mkdir git-basic-exercises
+   51  cd git-basic-exercises
+   52  ls -a
+   53  git init
+   54  ls -a
+   55  git status
+   56  touch README.md
+   57  ls -a
+   58  git log
+   59  git add README.md
+   60  git status
+   61  git rm --cached README.md
+   62  git staus
+   63  git status
+   64  git add README.md
+   65  git commit -m "initial commit"
+   66  git config --global user.email "you@example.com"
+   67  git config --global user.email "faithie.m@live.co.za"
+   68  git config --global user.name "Faithie30\"
+   69  git config --global user.name "Faithie30"
+   70  git commit -m "initial commit"
+   71  git log
+   72  nano README.md
+   73  cat README.md
+   74  git status
+   75  git add README.md
+   76  git commit -m "second commit"
+   77  git add README.md
+   78  git commit -m "third commit"
+   79  nano README.md
+   80  git aadd README.md
+   81  git add README.md
+   82  git commit -m "third commit"
+   83  git log
+   84  git branch
+   85  git checkout -b milkshake-flavours
+   86  git checkout master
+   87  git branch
+   88  git checkout master
+   89  git checkout -b milkshake-flavours
+   90  git branch
+   91  git checkout milkshake-flavours
+   92  nano milkshake.md
+   93  git status
+   94  git commit -m "added initial flavours"
+   95  git log
+   96  git checkout master
+   97  git log
+   98  git checkout -b history
+   99  history>history.txt
